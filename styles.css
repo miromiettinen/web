@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 60%;
+    margin: auto;
+}
+form{
+    background-color: aquamarine;
+}
+fieldset{
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: dashed;
+}
+legend{
+    font-size: 5px;
+}
+input, textarea{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: beige;
+}
+input:focus, textarea:focus{
+    background-color: blueviolet;
+}
