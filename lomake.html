@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lomake</title>
+    <link type="text/css" rel="stylesheet" href="tyylit.css">
+</head>
+<body>
+    <div class="maincontent">
+        <form>
+
+            <fieldset>
+                <div class="card"><legend>Yhteystiedot</legend>
+                    <table>
+                        <tr>
+                            <td><label>Etunimi</label></td>
+                            <td><input type="text" id="fname" name="fname"></td>
+                            <td colspan="1">Suositeltu kontaktointi:</td>
+                        </tr>
+                        <tr>
+                            <td><label>Sukunimi</label></td>
+                            <td><input type="text" id="lname" name="lname"></td>
+                            <td><input type="checkbox"></td>
+                            <td><label>Email</label></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td><input type="email" id="email" name="email"></td>
+<td><input type="checkbox"></td>
+                            <td><label>Puhelin</label></td>
+                        </tr>
+                        <td><label>Puhelin</label></td>
+                        <td><input type="phone" id="phone" name="phone"></td>
+                        </tr>
+                    </table>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="card">
+                    <legend>Palaute</legend>
+                    <table>
+                        <tr>
+                            <td><label>Viestin aihe:</label>
+                                <input type="text" id="message" name="message">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><textarea id="text" name="text" rows="10" cols="50">
+                    </textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label>Lisää liite:</label>
+                                <button type="button">Valitse tiedosto</button>
+                            </td>
+                            <td><label>Tiedostoa ei valittu</label></td>
+                        </tr>
+                        <td><button type="button">Lähetä</button></td>
+                    </table>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
