@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Vaihtuvasisältöinen mediaelementti</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+   <h1>Kuvakaruselli</h1> 
+    <div class="slider-frame">
+        <div class="media-buttons">
+            <button id="previous" onclick=getPrevious()><i class="bi bi-arrow-left-square-fill"></i></button>
+            <button id="vidbutton" onclick=slideshow()><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" onclick=getNext()><i class="bi bi-arrow-right-square-fill"></i></button>
+        </div>
+
+        <div class="image-container">
+            <div class="Kissakuva">
+                <img src="https://cdn.thisiswhyimbroke.com/images/hats-for-cats1.jpg" alt="Kissa">
+            </div>
+            <div class="Koirakuva">
+                <img src="https://i.pinimg.com/550x/68/73/ee/6873ee615d404d1b4093da2962185909.jpg" alt="Koira">
+            </div>
+            <div class="Ankkakuva">
+                <img src="https://i.forfun.com/jwf2c6eo.jpeg" alt="Ankka">
+            </div>
+            <div class="Lehmäkuva">
+                <img src="https://thumbs.dreamstime.com/b/cow-birtday-hat-looking-camera-outdoors-sunlight-closeup-147977715.jpg" alt="Lehmä">
+            </div>
+        </div>
+
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>

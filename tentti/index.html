@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tentti</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Vuokraa kanootti</h1>
+        <div class="image-container">
+            <div class="kanootti">
+                <img src="data:image/jpeg;base64,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" alt="kanootti">
+            </div>
+
+
+            <h2>
+                <label>
+                    <span class="title">Kanootin tiedot</span> 
+                    <button id="button">Info</button>
+                    <div id="infodiv" style="display:none;">Hyvä kanootti</div>
+                </label>
+            </h2>
+            <head>
+                <body>
+  
+
+    <form>
+                    <div data-ng-app="" data-ng-init="quantity=1;price=5">
+                    
+                    <h2>Vuokrauksen tiedot</h2>
+                    
+                   Valitse kanoottien määrä: <input type="number" ng-model="quantity">
+                    Palvelu:  <select name="product" id="p3" onchange="totalIt()">
+                    <option value="15">Pikavuokraus 15€/kanootti</option>
+                    <option value="30">Päivävuokraus 30€/kanootti</option>
+                    <option value="40">Vuorokausivuokraus 40€/kanootti</option>
+                    <option value="60">Viikonloppuvuokraus 60€/kanootti</option>
+                </select>
+                    Kanootin kappale hinta: <input type=value ng-model="price">
+                    
+                    <p><b>Loppusumma:</b> {{quantity * price}}</p>
+                    
+                    </div>
+            </div>
+        </form>
+</body>
+</html>
